@@ -52,3 +52,11 @@ $wgNamespaceAliases['Main'] = NS_MAIN;
 $wgContentNamespaces = array(0, 102, 104, 106, 110, 112, 114, 116, 1000);
 $wgNamespacesWithSubpages = array_fill(0, 2000, true);
 $wgNamespacesToBeSearchedDefault = array( 0 => true, 102 => true, 104 => true, 106 => true, 110 => true, 112 => true, 114 => true, 116 => true);
+
+
+function randtitle(&$randstr, &$isRedir, &$namespaces, &$extra, &$title){
+  $extra[]='page_title NOT LIKE \'%/raw\'';
+  return true;
+}
+$wgHooks['SpecialRandomGetRandomTitle'][] = 'randtitle';
+
