@@ -22,8 +22,8 @@ $wgExtraNamespaces[112] = "v0.31";
 $wgExtraNamespaces[113] = "v0.31_Talk";
 $wgExtraNamespaces[114] = "v0.34";
 $wgExtraNamespaces[115] = "v0.34_Talk";
-$wgExtraNamespaces[116] = "DF2014";
-$wgExtraNamespaces[117] = "DF2014_Talk";
+$wgExtraNamespaces[116] = "v0.42";
+$wgExtraNamespaces[117] = "v0.42_Talk";
 $wgExtraNamespaces[200] = "Tutorial";
 $wgExtraNamespaces[201] = "Tutorial_Talk";
 $wgExtraNamespaces[1000] = "Masterwork";
@@ -34,6 +34,9 @@ $wgNamespaceAliases['DF2010_Talk'] = 113;
 
 $wgNamespaceAliases['DF2012'] = 114;
 $wgNamespaceAliases['DF2012_Talk'] = 115;
+
+$wgNamespaceAliases['DF2014'] = 116;
+$wgNamespaceAliases['DF2014_Talk'] = 117;
 
 $wgNamespaceAliases['DF'] = 4;
 $wgNamespaceAliases['DF_TALK'] = 5;
