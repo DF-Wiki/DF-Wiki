@@ -1,4 +1,6 @@
 DF-Wiki
 =======
 
-Public settings and issue tracker for the DF wiki
+Issue tracker for the DF wiki
+
+See https://github.com/DF-Wiki for a full list of DF Wiki repos
